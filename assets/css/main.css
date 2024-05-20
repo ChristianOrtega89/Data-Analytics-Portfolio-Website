@@ -4154,3 +4154,16 @@ input, select, textarea {
 		}
 
 	}
+
+	.image-container {
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	.image-container img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	
