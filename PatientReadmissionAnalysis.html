@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Silverstone Medical Center Patient Readmission Analysis (End-to-End)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Christian Ortega</a></h1>
+						<nav>
+							<a href="#menu">Projects</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Projects</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="HabitableExoplanets.html">Habitable Exoplanets</a></li>
+								<li><a href="Rentalproperties.html">Rental Properties Dashboard</a></li>
+							
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Silverstone Medical Center Patient Readmission Analysis (End-to-End)</h2>
+								<p><h1>Overview</h1></p>
+								<p>Patient readmission rates are costly and can often indicate gaps in patient care and hospital efficiency. This project analyzes readmission trends for Silverstone Medical Center from 2024 to 2025, identifies key contributing factors, and provides data-driven business recommendations to reduce future readmission rates. The project consists of:</p>
+								<a href="https://github.com/ChristianOrtega89/Silverstone-Medical-Center-Patient-Readmission-Analysis/blob/main/ETL%20Pipeline/README.md" class="special" target="_blank">An ETL pipeline (Python, PostgreSQL)</a>
+								<a href="https://github.com/ChristianOrtega89/Silverstone-Medical-Center-Patient-Readmission-Analysis/blob/main/SQL%20Queries/Silverstone%20Queries.sql" class="special" target="_blank">Data Exploration (SQL)</a>
+								<a href="https://public.tableau.com/app/profile/christian.ortega8152/viz/SilverstoneMedicalCenterPatientReadmissionsOverview/FullDashboard#1" class="special" target="_blank">Visualization (Tableau)</a>
+								<hr>
+								<p><h1>Business Question</h1></p>
+								<p>What factors contributed to the spike in hospital readmissions in July 2024, and what actionable recommendations can we make to reduce future readmissions?</p>
+								<hr>
+								<p><h1>NorthStar Metrics</h1></p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Readmission Rate (%) – The percentage of patients that were readmitted.</p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Length of Stay (Days) – The average number of days a patient stayed in the hospital.</p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Bed Occupancy (%) – The percentage of occupied beds at the hospital.</p>
+								<hr>
+								<p><h1>Summary of Insights</h1></p>
+								<p><h3>Readmission Rates Over Time</h3></p>
+								<p>From our data, we observe a 33% spike in hospital readmissions from June to July 2024.</p>
+								<div class='tableauPlaceholder' id='viz1741953350315' style='position: relative'><noscript><a href='#'><img alt='Readmisisons Over Time ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;SilverstoneMedicalCenterPatientReadmissionsOverTime&#47;ReadmisisonsOverTime&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SilverstoneMedicalCenterPatientReadmissionsOverTime&#47;ReadmisisonsOverTime' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;SilverstoneMedicalCenterPatientReadmissionsOverTime&#47;ReadmisisonsOverTime&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741953350315');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								<p>Readmission rates increased from 18.1% to 24% from June to July.</p>
+								<p></p>
+								<hr>
+								<p><h3>Average Length of Stay</h3></p>
+								<p>A deeper analysis reveals a correlation between the average length of hospital stay and the readmission rate.</p>
+								
+								<div class='tableauPlaceholder' id='viz1741971445548' style='position: relative'><noscript><a href='#'><img alt='Readmisisons Vs Length of Stay ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsvsLengthofStay&#47;ReadmisisonsVsLengthofStay&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ReadmissionsvsLengthofStay&#47;ReadmisisonsVsLengthofStay' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsvsLengthofStay&#47;ReadmisisonsVsLengthofStay&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741971445548');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								<p>The average length of stay dropped from 5.1 days to 2.1 days from June to July. <br> Shorter hospital stays may have led to premature discharges, causing more readmissions.</p>
+								<hr>
+								<p><h3>Bed Occupancy Percentage</h3></p>
+								<p>The highest readmission rate (24%) occurred during the peak bed occupancy for 2024 in July.</p>
+								<div class='tableauPlaceholder' id='viz1741971845206' style='position: relative'><noscript><a href='#'><img alt='Readmisisons vs Bed Occupancy ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsvsBedOccupancy&#47;ReadmisisonsvsBedOccupancy&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ReadmissionsvsBedOccupancy&#47;ReadmisisonsvsBedOccupancy' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsvsBedOccupancy&#47;ReadmisisonsvsBedOccupancy&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741971845206');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								<p>Overcrowding may have led to rushed discharges, increasing readmissions.</p>
+								<hr>
+								<p><h3>Other Findings</h3></p>
+
+								<div class='tableauPlaceholder' id='viz1741973282527' style='position: relative'><noscript><a href='#'><img alt='Readmisisons by discharge ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsByDischargeType&#47;Readmisisonsbydischarge&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ReadmissionsByDischargeType&#47;Readmisisonsbydischarge' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsByDischargeType&#47;Readmisisonsbydischarge&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741973282527');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								<p>Patients discharged home without follow-up care were much more likely to be readmitted.</p>
+
+								<div class='tableauPlaceholder' id='viz1741973358737' style='position: relative'><noscript><a href='#'><img alt='Readmisisons by Diagnosis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsByDiagnosis&#47;ReadmisisonsbyDiagnosis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ReadmissionsByDiagnosis&#47;ReadmisisonsbyDiagnosis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReadmissionsByDiagnosis&#47;ReadmisisonsbyDiagnosis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741973358737');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								<p>Respiratory & Infectious Diseases have the highest readmission rates (20.9% & 19.9%).</p>
+								<hr>
+								<p></p>
+								<p><h1>Recommendations and Next Steps</h1></p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Implement stricter discharge criteria and increase the length of stay for high-risk patients to avoid rushed or premature discharges.</p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Investigate the causes of bed occupancy spikes and improve bed management policies to ensure stable patients are not staying longer than necessary.</p>
+								<p style="line-height: 1.8; margin: 2px 0;">&bull; Review the current discharge process and consider implementing more comprehensive discharge education plans to ensure patients understand their condition before leaving the hospital.</p>
+								<hr>
+								<p><h2>Technical Details</h2></p>
+								<p><h1>The Data Pipeline</h1></p>
+							<p>This project includes an ETL pipeline that automates the extraction, transformation, and loading (ETL) of patient data. The pipeline uses Python, pandas, SQLAlchemy, and PostgreSQL.</p>
+							<p>The full ETL process consists of the following steps:</p>
+							<p style="line-height: 1.8; margin: 2px 0;">&bull; Extract: Extracts the data from CSV files on a local folder.</p>
+							<p style="line-height: 1.8; margin: 2px 0;">&bull; Transform: Processes the data, cleans it, and prepares it for loading.</p>
+							<p style="line-height: 1.8; margin: 2px 0;">&bull; Load: Loads the data into a PostgreSQL database.</p>
+							<p></p>
+							<p>For the full pipeline documentation, check out the <a href="https://github.com/ChristianOrtega89/Silverstone-Medical-Center-Patient-Readmission-Analysis/blob/main/ETL%20Pipeline/README.md" target="_blank">Pipeline README</a>.</p>
+							<hr>
+							<p><h1>Data Exploration & SQL Analysis</h1></p>
+							<p>Using SQL, I analyzed key factors influencing readmissions:</p>
+							<p>
+								1. Readmission Rate Over Time<br>
+								2. Length of Stay vs. Readmission Rate<br>
+								3. Readmission Rate vs. Bed Occupancy Percentage<br>
+								4. Discharge Type & Follow-Up Impact<br>
+								5. Diagnosis Type & Readmission Risk
+							</p>
+							<p>Example SQL Query:</p>
+							<div class="image-container"><img src="images/SQLQuery1.png" alt="" /></div>
+							<p></p>
+							<a href="https://github.com/ChristianOrtega89/Silverstone-Medical-Center-Patient-Readmission-Analysis/blob/main/SQL%20Queries/Silverstone%20Queries.sql" class="special" target="_blank">Full SQL Code</a>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">The Data at a Glance</h3><div class='tableauPlaceholder' id='viz1741974104754' style='position: relative'><noscript><a href='#'><img alt='Full Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;SilverstoneMedicalCenterPatientReadmissionsOverview&#47;FullDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SilverstoneMedicalCenterPatientReadmissionsOverview&#47;FullDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;SilverstoneMedicalCenterPatientReadmissionsOverview&#47;FullDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741974104754');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='950px';vizElement.style.height='1827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='950px';vizElement.style.height='1827px';} else { vizElement.style.width='100%';vizElement.style.height='3077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							
+							<li class="icon solid fa-envelope"><a href="https://www.linkedin.com/in/christian-ortega-119a5562/" target="_blank"> LinkedIn Profile</a></li>
+								<li class="icon solid fa-envelope"> Christian.Ortega4789@gmail.com</a></li>
+							
+							</ul>
+							<ul class="copyright">
+								
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
